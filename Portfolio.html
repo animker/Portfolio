@@ -6,59 +6,119 @@
     <title>Nicolas Paes Pimenta - Portfólio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #495057;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 5px solid #0056b3;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         h2, h3, p, ul, li {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
-        ul {    
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #0056b3;
+        }
+
+        ul {
             list-style-type: none;
             padding: 0;
+            margin-left: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        footer {
+            background-color: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
-    <h2>Nicolas Paes Pimenta</h2>
-    <p>Operador de Telecomunicações</p>
+    <header>
+        <h1>Nicolas Paes Pimenta</h1>
+        <p>Operador de Telecomunicações</p>
+    </header>
 
-    <h3>FORMAÇÃO</h3>
-    <p>Análise e Desenvolvimento de Sistemas - Faculdade Unicesumar, Curitiba.</p>
+    <main>
+        <section id="formacao">
+            <h2>FORMAÇÃO</h2>
+            <p>Análise e Desenvolvimento de Sistemas - Faculdade Unicesumar, Curitiba.</p>
+        </section>
 
-    <h3>EXPERIÊNCIA PROFISSIONAL</h3>
-    <p>Webhelp Brasil, Curitiba</p>
-    <ul>
-        <li>Ações de cobrança no segmento Pré-Churn com opções de pagamentos flexíveis aos clientes disponíveis na base com alta faixa de atraso.</li>
-        <li>Procedimentos padronizados com scripts priorizando a excelência no atendimento.</li>
-        <li>Retenção de clientes em risco de cancelamento, identificando e abordando antes de uma decisão final.</li>
-        <li>Junho 2021 - Atual.</li>
-    </ul>
+        <section id="experiencia">
+            <h2>EXPERIÊNCIA PROFISSIONAL</h2>
+            <p>Webhelp Brasil, Curitiba</p>
+            <ul>
+                <li>Ações de cobrança no segmento Pré-Churn com opções de pagamentos flexíveis aos clientes disponíveis na base com alta faixa de atraso.</li>
+                <li>Procedimentos padronizados com scripts priorizando a excelência no atendimento.</li>
+                <li>Retenção de clientes em risco de cancelamento, identificando e abordando antes de uma decisão final.</li>
+                <li>Junho 2021 - Atual.</li>
+            </ul>
+        </section>
 
-    <h3>COMO ESTUDANTE</h3>
-    <p>Como estudante do 5º semestre de Análise de Sistemas, estou em busca de uma oportunidade para aprimorar minhas habilidades na área, contribuindo para o desenvolvimento tecnológico e adquirindo conceitos fundamentais da programação com experiência prática. Estou aberto a todas as propostas que me permitam expandir meus conhecimentos, construindo uma base sólida para minha carreira profissional.</p>
+        <section id="estudante">
+            <h2>COMO ESTUDANTE</h2>
+            <p>
+                Como estudante do 5º semestre de Análise de Sistemas, estou em busca de uma oportunidade para aprimorar minhas habilidades na área, contribuindo para o desenvolvimento tecnológico e adquirindo conceitos fundamentais da programação com experiência prática. Estou aberto a todas as propostas que me permitam expandir meus conhecimentos, construindo uma base sólida para minha carreira profissional.
+            </p>
+        </section>
 
-    
+        <section id="dados-pessoais">
+            <h2>DADOS PESSOAIS</h2>
+            <p>Brasileiro, Solteiro, 21 anos. <br />Endereço: Rua Gerhard Heinrichs 646, Xaxim - Curitiba - PR. <br />E-mail: nicopaesp@gmail.com <br />Telefone: (41) 99739-9514</p>
+        </section>
 
-    <h3>DADOS PESSOAIS</h3>
-    <p>Brasileiro, Solteiro, 21 anos. <br />Endereço: Rua Gerhard Heinrichs 646, Xaxim - Curitiba - PR. <br />E-mail: nicopaesp@gmail.com <br />Telefone: (41) 99739-9514</p>
+        <section id="idiomas">
+            <h2>IDIOMAS</h2>
+            <p>Português: Originário. <br />Inglês: Intermediário.</p>
+        </section>
 
-    <h3>IDIOMAS</h3>
-    <p>Português: Originário. <br />Inglês: Intermediário.</p>
+        <section id="academica">
+            <h2>ACADÊMICA</h2>
+            <p>Ensino Médio: Conclusão em 2019 - ACESSO</p>
+        </section>
 
-    
+        <section id="habilidades">
+            <h2>HABILIDADES TÉCNICAS</h2>
+            <p>
+                Linguagens de programação: Conhecimento básico em Python e JS. <br />
+                Desenvolvimento Web: Familiaridade com HTML e CSS.
+            </p>
+        </section>
 
-    <h3>ACADÊMICA</h3>
-    <p>Ensino Médio: Conclusão em 2019 - ACESSO</p>
-
-    <h3>HABILIDADES TÉCNICAS</h3>
-    <p>
-        Linguagens de programação: Conhecimento básico em Python e JS. <br />
-        Desenvolvimento Web: Familiaridade com HTML e CSS.
-    </p>
-
-    <h3>COMPETÊNCIAS DIVERSAS</h3>
-    <p>Microsoft SQL Server - Básico <br />Microsoft Office (Word, Excel e PowerPoint) - Intermediário.</p>
-</body>
-</html>
+        <section id="competencias">
+            <h2>COMPETÊNCIAS DIVERSAS</h2>
+            <p>Microsoft SQL Server -
